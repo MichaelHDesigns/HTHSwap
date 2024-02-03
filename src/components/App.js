@@ -26,7 +26,7 @@ async loadBlockchainData() {
   this.setState({ token });
 
   // Load EtherSwap using ABI from ./abis/EtherSwap.json
-  const etherSwap = new web3.eth.Contract(EtherSwap.abi, "0x78ce3d5f69022Fb6390B2Cbdbc1F35aC507f7823");
+  const etherSwap = new web3.eth.Contract(EtherSwap.abi, "0xD66168f8D0382BD2a66564c5755a30B4C0EaB79F");
   this.setState({ etherSwap });
 
   let tokenBalance = await token.methods.balanceOf(this.state.account).call();

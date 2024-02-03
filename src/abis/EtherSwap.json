@@ -82,13 +82,13 @@
 		"anonymous": false,
 		"inputs": [
 			{
-				"indexed": false,
+				"indexed": true,
 				"name": "account",
 				"type": "address"
 			},
 			{
-				"indexed": false,
-				"name": "token",
+				"indexed": true,
+				"name": "tokenAddress",
 				"type": "address"
 			},
 			{
@@ -109,13 +109,13 @@
 		"anonymous": false,
 		"inputs": [
 			{
-				"indexed": false,
+				"indexed": true,
 				"name": "account",
 				"type": "address"
 			},
 			{
-				"indexed": false,
-				"name": "token",
+				"indexed": true,
+				"name": "tokenAddress",
 				"type": "address"
 			},
 			{
